@@ -4,7 +4,7 @@ import { connect } from "@/dbConfig/dbConfig";
 
 connect();
 
-export async function POST(req) {
+export async function PUT(req) {
     try {
         const id = req.url.split("/").pop();
         const reqBody = await req.json();

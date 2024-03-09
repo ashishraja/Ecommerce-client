@@ -40,6 +40,13 @@ export default function CreateProduct() {
             setLoading(true);
             const response = await axios.post("/api/admin/products/createproduct", product);
             toast.success( response.data.message , toastDisplayData);
+            setProduct({
+                name: "",
+                description: "",
+                price: "",
+                category: "",
+                stock: "",
+            });
         } catch (error) {
             toast.error( error.message , toastDisplayData);
         } finally {

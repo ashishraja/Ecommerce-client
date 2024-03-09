@@ -15,6 +15,19 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    keyframes: {
+      parallax: {
+        '0%': {
+          objectPosition: 'center',
+        },
+        '100%': {
+          objectPosition: '0 0',
+        },
+      },
+    },
+    animation: {
+      parallax: 'parallax linear both',
+    },
   },
   plugins: [
     require("flowbite/plugin")

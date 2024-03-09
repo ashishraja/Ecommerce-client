@@ -32,7 +32,7 @@
     "src/app/updateproduct/[id]/page.js",
     "src/app/signup/page.js",
     "src/app/profile/page.js",
-    "src/app/admin/products/page.js",
+    "src/app/products/page.js",
     "src/app/api/admin/products/updateproduct/[...id].js",
     "src/app/createproduct/page.js",
     "src/app/api/admin/users/verifyemail/route.js",
