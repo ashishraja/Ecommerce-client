@@ -2,7 +2,6 @@ import React from "react";
 import { Table, TableContainer, Td, TableCaption, Thead, Tr, Th, Tbody, HStack, Button, Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react';
 import Link from "next/link";
 import { IoSearch } from "react-icons/io5";
-import { toast } from "react-toastify";
 import { RowComponent } from "@/components/productHandler";
 import axios from "axios";
 
